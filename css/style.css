@@ -1,0 +1,353 @@
+ @import url('https://fonts.googleapis.com/css?family=Fjalla+One');
+
+body{
+	margin: 0;
+	padding: 0;
+	font-family: 'Fjalla One', sans-serif;
+}
+
+.contenar{
+	width: 1000px;
+	margin: 0 auto;
+    overflow: hidden;
+}
+
+.leave{
+position: fixed;
+top: 75%;
+right: 0;
+}
+
+.leave a{
+	text-decoration: none;
+	color: #fff;
+	background: #494949;
+	padding: 5px;
+	border-radius: 5px 0px 0px 0px;
+}
+
+.leave span{
+	margin-left:2px;
+	font-size: 13px;
+}
+
+.leave a:hover{
+	background: #000;
+}
+
+header{
+background: #fff;
+overflow: hidden;
+padding-bottom: 5px;
+}
+
+nav{
+	float: left;
+	padding-left: 25px;
+}
+nav ul{
+margin: 0;
+    padding: 0;
+}
+nav ul li {
+	    list-style: none;
+    display: inline-block;
+}
+nav ul li a{   
+text-decoration: none;
+font-size: 16px;
+padding: 20px 0 0px 10px;
+text-transform: uppercase;
+display: block;
+color: #000;
+}
+
+nav ul li a:hover{
+	color: #319647;
+}
+
+.logo{
+	float: left;
+}
+
+.logo img{
+	width: 175px;
+padding-top: 10px;
+}
+
+.social {
+	text-align: right;
+float: right;
+}
+
+.social ul {
+	margin: 0;
+    padding: 0;
+}
+
+.social ul li {
+	    list-style: none;
+    
+    display: inline-block;
+    padding-top: 15px;
+}
+.social ul li a {
+	  text-align: right;
+color: #000;
+text-decoration: none;
+font-size: 22px;
+padding-right:2px;
+
+}
+
+.social span a{
+text-decoration: none;
+color: black;
+
+}
+
+.social span{
+	padding-left: 20px;
+	font-size:15px;
+
+}
+
+.fa-facebook-square{
+	color: #3B5998;
+}
+
+.fa-twitter-square{
+	color: #00A0D1;
+}
+
+.fa-google-plus-square{
+	color: #C63D2D;
+}
+
+.fa-linkedin-square{
+	color:#4875B4; 
+}
+
+.img {
+background: url(../images/office-820390_960_720.jpg);
+background-size: auto auto;
+background-size: cover;
+background-repeat: no-repeat;
+padding-bottom: 75px;
+
+}
+
+.cont{
+	float: left;
+background: rgba(255, 255, 255, 0.20);
+text-align: center;
+margin-top: 50px;
+padding: 15px;
+margin-bottom: 25px;
+
+}
+
+.cont ul{
+margin: 0;
+    padding: 0;
+}
+.cont ul li {
+	    list-style: none;
+    display: inline-block;
+}
+
+.button{
+height: 35px;
+width: 165px;
+font-size: 15px;
+color: #fff;
+text-transform: uppercase;
+background: #66c430;
+border: 1px solid #095169;
+border-radius: 5px;
+margin-top: 25px;
+cursor: pointer;
+margin-left: 5px;
+
+}
+
+.button:hover{
+	background: #095169;
+}
+
+.cont h1{
+margin: 0;
+font-size: 45px;
+}
+
+.cont p{
+margin: 0;
+font-size: 20px;
+padding-top: 5px;
+}
+
+.p{
+	float: left;
+margin-top: 25px;
+margin-left: 50px;
+box-sizing: border-box;
+text-align: center;
+}
+
+.p button{
+	height: 30px;
+width: 100px;
+font-size: 15px;
+background: #319647;
+color: #fff;
+border: 1px solid #095169;
+border-radius: 5px;
+margin-bottom: 50px;
+cursor: pointer;
+}
+
+.p button:hover{
+	background:#095169; 
+}
+
+.one{
+	float: left;
+	background: #B7CCD3;
+	padding: 50px;
+margin-left: 75px;
+font-size: 20px;
+border-radius: 5px;
+margin-bottom: 50px;
+
+}
+
+.one h1{
+	text-align: center;
+}
+
+.one li{
+margin-top:10px;
+}
+
+.two{
+	float: left;
+	background: #B4E1E1;
+	padding: 50px;
+margin-left: 75px;
+font-size: 20px;
+border-radius: 5px;
+margin-bottom: 50px;
+
+}
+
+.two h1{
+	text-align: center;
+}
+
+
+.two li{
+margin-top:10px;
+}
+
+.but{
+height: 35px;
+width: 165px;
+font-size: 15px;
+color: #fff;
+text-transform: uppercase;
+background: #66c430;
+border: 1px solid #095169;
+border-radius: 5px;
+margin-top: 25px;
+cursor: pointer;
+margin-left: 70px;
+margin-right: 70px;
+
+}
+
+.but:hover{
+	background: #095169;
+}
+
+.blog span{
+	text-align: center;
+	font-size: 30px;
+	color: #095169;
+}
+
+.a{
+	float: left;
+	width: 47%;
+	margin-bottom: 50px;
+}
+
+.a h1{
+	color: #095169;
+}
+
+.b{
+	float: left;
+	width: 47%;
+margin-left: 50px;
+
+}
+
+.b h1{
+	color: #095169;
+}
+
+.re{
+	text-decoration: none;
+}
+
+.fu{
+	background: #EEEEEE;
+	text-align: center;
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+.fu p{
+	margin-bottom: 0;
+}
+
+.fu b{
+	font-size: 25px;
+}
+
+.le img{
+	margin-left: 265px;
+	margin-top: 50px;
+	
+}
+
+.le p{
+	text-align: center;
+	margin-top:0;
+	margin-bottom: 50px;
+}
+
+footer{
+	background: #052D3A;
+padding-top: 25px;
+padding-bottom: 25px;
+
+}
+
+.m{
+	float: left;
+	text-align: right;
+	width:47%;
+	color: #fff;
+}
+.n{
+	float: left;
+	margin-left: 25px;
+	text-align: left;
+	width: 48%;
+	color: #fff;
+}
+
+.n span p{
+	margin:0;
+}
